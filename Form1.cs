@@ -49,7 +49,7 @@ namespace odev3
         private void button4_Click(object sender, EventArgs e)
         {
             int sonuc = Liste_AdSoyad.Where(ayse => ayse.Contains(textBox4.Text)).Count();
-            MessageBox.Show(textBox4.Text + "de aradýðýn isim listede " + sonuc + " kadar bulunmaktadýr");
+            MessageBox.Show(textBox4.Text +  + sonuc + " adet bulunmaktadýr");
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
